@@ -46,7 +46,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Inter, system-ui;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -560,12 +560,10 @@ video {
   margin-left: auto;
 }
 
-.text-lg {
-  font-size: 48px;
-  line-height: 51px;
+.font-sans {
+  font-family: Inter, system-ui;
 }
 
-.text-xl {
-  font-size: 62px;
-  line-height: 70px;
+.font-light {
+  font-weight: 300;
 }

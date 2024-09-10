@@ -14,7 +14,17 @@ module.exports = {
       sm: { max: "639px" },
       // => @media (max-width: 639px) { ... }
     },
-    colors: {},
+    colors: {
+      blue: "#345ff6",
+      gunmetal: "#253347",
+      "dark-electric-blue": "#5e6e85",
+      "gradient-1-start": "#D6E6FE",
+      "gradient-1-end": "#D6FCFE",
+    },
+    fontFamily: {
+      sans: ["Inter", "system-ui"],
+    },
+
     fontSize: {
       sm: ["20px", "28px"],
       md: ["24px", "40px"],
