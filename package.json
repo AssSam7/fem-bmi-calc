@@ -1,0 +1,30 @@
+{
+  "name": "fem-bmi-calc",
+  "version": "1.0.0",
+  "description": "This repository consists of the frontend mentor Junior level challenge to calculate the BMI",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AssSam7/fem-bmi-calc.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "Tailwind"
+  ],
+  "author": "Aslam Mohammed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AssSam7/fem-bmi-calc/issues"
+  },
+  "homepage": "https://github.com/AssSam7/fem-bmi-calc#readme",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6",
+    "tailwindcss": "^3.4.10"
+  }
+}
