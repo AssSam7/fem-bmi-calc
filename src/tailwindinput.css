@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .text-body-sm {
+    font-size: 14px;
+    line-height: 150%;
+    @apply font-normal;
+  }
+  .text-body-md {
+    font-size: 16px;
+    line-height: 150%;
+    @apply font-normal;
+  }
+  .text-body-md-bold {
+    font-size: 16px;
+    line-height: 150%;
+    @apply font-semibold;
+  }
+}
+
+@layer components {
+  .bmi-intro {
+    @apply relative;
+
+    .content {
+      background: linear-gradient(
+        290deg,
+        rgb(214, 230, 254) 0%,
+        rgba(214, 252, 254, 0) 100%
+      );
+      @apply h-[88vh] w-[72%] rounded-b-[35px] bg-no-repeat px-[140px] py-[74px] md:w-full md:px-[40px] md:py-[40px];
+      @apply flex flex-col items-start gap-10;
+      /* Tablet Styles */
+      @apply md:items-center md:gap-5;
+
+      img {
+        @apply mb-10 md:mb-5;
+      }
+    }
+
+    .bmi-calc {
+      @apply bg-pure-white shadow-drop-shadow absolute left-[55%] top-[28%] h-[40vh] w-[33vw] rounded-lg shadow-[16px_32px_56px_0];
+      /* Tablet Styles */
+      @apply md:left-0 md:top-[66%] md:w-[85vw];
+    }
+  }
+}

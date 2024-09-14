@@ -15,8 +15,10 @@ module.exports = {
       // => @media (max-width: 639px) { ... }
     },
     colors: {
+      "pure-white": "#fff",
       blue: "#345ff6",
       gunmetal: "#253347",
+      "drop-shadow": "rgba(143, 174, 207, 0.25)",
       "dark-electric-blue": "#5e6e85",
       "gradient-1-start": "#D6E6FE",
       "gradient-1-end": "#D6FCFE",
