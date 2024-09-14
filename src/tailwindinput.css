@@ -54,4 +54,25 @@
     /* Mobile Styles */
     @apply sm:grid-cols-1 sm:px-0;
   }
+
+  .bmi-tips {
+    background: linear-gradient(
+      290deg,
+      rgb(214, 230, 254) 0%,
+      rgba(214, 252, 254, 0) 100%
+    );
+    @apply mx-3 my-6 flex gap-7 rounded-xl px-[130px] py-[74px];
+    /* Tablet */
+    @apply md:mx-0 md:flex-col md:rounded-none md:px-10;
+
+    & > div {
+      @apply flex flex-col items-start gap-8;
+      /* Tablet */
+      @apply md:flex-row md:items-center md:gap-10;
+
+      & > div {
+        @apply flex flex-col gap-3;
+      }
+    }
+  }
 }
